@@ -1,0 +1,45 @@
+.loginContainer {
+    margin: 30px 10px;
+    background-color: var(--ion-color-step-100);
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+@media screen and (min-width: 600px) {
+    .loginContainer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.loginTitle {
+    font-weight: 600 !important;
+}
+
+.loginInput {
+    --background: var(--ion-color-step-150);
+    margin: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.loginEye {
+    position: relative;
+    top: 9px;
+}
+
+.loginButton {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    // height: 70px;
+    --background: linear-gradient(90deg, hsla(142, 92%, 25%, 1) 0%, hsla(98, 90%, 40%, 1) 0%, hsla(176, 64%, 31%, 1) 83%);
+}
+
+.signupButton {
+    width: 90%;
+    margin-bottom: 40px;
+    // height: 70px;
+    --background: linear-gradient(315deg, hsla(142, 92%, 25%, 1) 0%, hsla(98, 90%, 40%, 1) 0%, hsla(176, 64%, 31%, 1) 83%);
+}

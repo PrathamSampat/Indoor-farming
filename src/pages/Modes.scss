@@ -1,0 +1,37 @@
+.marginTop {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.segment {
+    --background: rgba(0,0,0,0);
+    --padding-top: 10px;
+    max-width: 500px;
+}
+
+@media screen and (min-width: 600px) {
+    .segment, .customModeBtn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+.modeIcon {
+    object-fit: contain;
+    width: 25px;
+    margin-top: 5px;
+    
+}
+
+.modeImg {
+    object-fit: contain;
+    // width: 300px;
+}
+
+.customModeBtn {
+    height: 80px;
+    max-width: 500px;
+}

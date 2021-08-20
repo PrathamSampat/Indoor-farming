@@ -1,0 +1,34 @@
+.modalList {
+    margin-top: 10px;
+}
+
+.modeItem {
+    border-radius: 10px;
+    width: 93%;
+}
+
+.modeInput {
+    --background: var(--ion-color-step-50);
+}
+
+.modeButton {
+    width: 85%;
+}
+
+.noModeText {
+    margin-top: 200px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .customModeDiv {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+.modalAdd{
+    --min-height: 680px;
+}
